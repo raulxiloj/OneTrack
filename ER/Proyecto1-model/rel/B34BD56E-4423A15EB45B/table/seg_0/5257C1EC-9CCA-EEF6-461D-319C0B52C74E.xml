@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5257C1EC-9CCA-EEF6-461D-319C0B52C74E" name="Artista">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-19 09:25:27 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idArtista" id="452A3768-365E-AE7C-B423-BF5EFF1DF730">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-19 09:26:03 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="941A35EA-D4D7-5954-ABAB-E8680E0A8CFF">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-19 09:26:03 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="781857DC-975A-2B4A-1193-76B5256C5B74" name="Artista_PK">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-19 09:26:03 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="452A3768-365E-AE7C-B423-BF5EFF1DF730"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

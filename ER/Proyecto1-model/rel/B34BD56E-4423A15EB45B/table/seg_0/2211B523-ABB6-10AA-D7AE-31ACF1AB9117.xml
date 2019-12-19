@@ -1,0 +1,208 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2211B523-ABB6-10AA-D7AE-31ACF1AB9117" name="Empleado">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>ECCC2D2B-31F7-ED18-AF7F-33F33D69DBE3</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEmpleado" id="9E4D967E-F844-8FA5-AAED-EE5A7BDA67F1">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>6BBDD02F-E1B7-72AE-62D8-362FD5735654</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="3A60314B-5235-8A5B-48B9-4EFE438C494B">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>F11A9632-5EC4-6EB3-E78A-5B0FD26BBF98</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="A8CAF4BE-C0AB-85FF-4B68-A784F173FABE">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>282B5E3C-5D85-E570-32F0-FE013D37556B</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jefe" id="445BD109-A6C2-CA2F-9E3A-7E8B9DB6DD84">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>EA2B3594-D68F-11E8-26F3-422A027A6D40</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaNacimiento" id="A9742D94-7D51-AD2B-65B8-D742960EA9C8">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>0851F8C1-02D5-7F26-8478-B13F54B6040C</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaContratacion" id="B8A374AF-A06E-DCE8-6D49-345699D6F778">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>B268CAEB-289C-B084-7D12-4FE803A3BB22</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIreccion" id="CEF81FCA-1B1E-5E82-C91B-77B2DE2F54A2">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>504CA230-43D8-5BC6-42AF-782A8D910B45</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudad" id="89C79560-3A6E-F15F-1AB8-2D027A38F87D">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>F2CB00B2-15E0-DE97-F2DD-0BF3D9847965</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="1554C501-FBB9-10F9-5D83-44152D2739A5">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>672A86B3-6F30-7FC8-5B8F-7F1FC6607158</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="79E59D7D-9E62-FDD2-3D0B-50720BB14B08">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>34CF3C8A-717B-CC0C-D70C-75061F4024E5</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_idCliente" id="CF00385F-D24E-C302-8111-6C7BA4F0C9F8">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>3598A492-D5A6-7105-8716-21D3E1046B2A</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="045D31CD-0D3A-0E09-3771-2ED67FD373FA" referredColumn="AFAFE149-FF8F-413F-4E15-7CC4FC59439F"/>
+</associations>
+</Column>
+<Column name="Empleado_idEmpleado" id="DBB8AE71-6217-C8CA-E422-92B3222889D6">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>1C925B6F-C2A9-6191-DE56-5E21F6EDC633</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32C68D06-26EE-A22A-6E0F-8BD98E242401" referredColumn="9E4D967E-F844-8FA5-AAED-EE5A7BDA67F1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7DD78AC-8F65-4BCC-E8F5-C3F5DDB02D5F" name="Empleado_PK">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>0653EB41-4269-3A2F-0985-6F3507EADFDF</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E4D967E-F844-8FA5-AAED-EE5A7BDA67F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27E1365F-0F11-689F-7E07-AE9CAD187408" name="Empleado__IDX">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D5D6E0C7-318A-77C0-0721-D4E925B78D85</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CF00385F-D24E-C302-8111-6C7BA4F0C9F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F8D4FFA-1B10-B723-E364-B75CD98E9675" name="Empleado_Cliente_FK">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>D5D6E0C7-318A-77C0-0721-D4E925B78D85</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF00385F-D24E-C302-8111-6C7BA4F0C9F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57221128-B987-AC03-BECF-821F2D7F4717" name="Empleado_Empleado_FK">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>F92C775A-01BE-2871-361B-97E956B23E73</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBB8AE71-6217-C8CA-E422-92B3222889D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

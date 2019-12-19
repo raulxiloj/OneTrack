@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB05288A-02B6-B23F-2DF1-34E57FC506C2" name="TipoArchivo">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>5DE4F86C-68F6-3A4C-970E-C31F68093899</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idTipoArchivo" id="0B2C42A0-4509-3D06-CA95-CAEF0DFDAE6F">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>1C6B9D88-C031-9920-03C7-BC29127B794D</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="DE617B23-6A87-07AD-57BC-F22EBE63FB38">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>86625AA5-3C53-537A-6C33-0D11B99580E0</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="746F9572-BD8C-8EEB-0D5E-B67CE41A39A0" name="TipoArchivo_PK">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>B4E0746C-9132-A60F-6A85-F2630A00EC5C</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B2C42A0-4509-3D06-CA95-CAEF0DFDAE6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56D7626E-B953-CA2E-9735-2A9D6A4F636E" name="TipoArchivo__IDX">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7B6899D0-21E6-44FC-3AF2-41EE9175DD99</relationGeneratorID>
+</ind_PK_UK>
+</indexes>
+</Table>

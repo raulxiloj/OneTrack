@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A3B099F-CC94-E0D2-353B-33A223EE32EB" name="DetalleLista">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-14 23:56:39 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idLista" id="510332E5-8948-B259-8E38-632B7078AFD0">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:13:21 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCancion" id="184E8B57-83DA-DF4E-41BB-53DBA3752513">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:13:22 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAlbum" id="2ABA001E-4FB9-C1C3-3216-43B07943ABB7">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:16:59 UTC</createdTime>
+<generatorID>AF5603D1-FF2B-6010-7410-D6D7B46A221D</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<referedAttribute>C54400E6-4493-EF9F-A94D-F6E894724AF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCancion1" id="721062D8-7192-B163-0ABA-BA14AFB0F304">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:16:59 UTC</createdTime>
+<generatorID>AF5603D1-FF2B-6010-7410-D6D7B46A221D</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<referedAttribute>8CFED0A9-3AC7-9E39-7F61-4DB168A7F730</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E26AD29-0B15-3D5A-1D01-5226448B748D" name="DetalleLista PK">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:15:30 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>721062D8-7192-B163-0ABA-BA14AFB0F304</attributeRef>
+<attributeRef>2ABA001E-4FB9-C1C3-3216-43B07943ABB7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

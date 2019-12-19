@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF87F54C-3C00-0E2A-0824-3BD059D85FB1" name="Factura">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>74E2A0BD-E8C9-6B3A-B047-34DB86481CCE</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idFactura" id="59BF35FD-D42B-3368-773F-F51BF59CB918">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>08A24C3A-187F-A9CB-A36B-A72BFA9773C1</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total" id="99DE7049-E332-1600-7A2C-C99C74603F73">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>6DF6C531-68D1-348A-5366-A765A1B310B4</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="BED08C87-733B-AE3D-384E-0EB895E4B72C">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>B799268A-9403-20BC-22FC-D250E89F562D</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_idCliente" id="DF1232A2-F26A-0ED6-9EB8-D0E59B5C41F1">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-19 09:21:53 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38ADA35B-8F73-87D6-18D9-08BA0437000D" referredColumn="AFAFE149-FF8F-413F-4E15-7CC4FC59439F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3E79DFA-ECE1-2036-7453-60D5B40C47BC" name="Factura_PK">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-19 09:30:31 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59BF35FD-D42B-3368-773F-F51BF59CB918"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC1D6FC4-65A7-4F5D-CAD2-187F3C6C1FB6" name="Factura_Cliente_FK">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-19 09:21:53 UTC</createdTime>
+<generatorID>5BB07F16-838A-DE8C-00A9-931A265F7336</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF1232A2-F26A-0ED6-9EB8-D0E59B5C41F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

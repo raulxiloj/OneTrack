@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ECCC2D2B-31F7-ED18-AF7F-33F33D69DBE3" name="Empleado">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 00:01:09 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idEmpleado" id="6BBDD02F-E1B7-72AE-62D8-362FD5735654">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:31:49 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="F11A9632-5EC4-6EB3-E78A-5B0FD26BBF98">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:31:49 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido" id="282B5E3C-5D85-E570-32F0-FE013D37556B">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:31:49 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jefe" id="EA2B3594-D68F-11E8-26F3-422A027A6D40">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:31:50 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaNacimiento" id="0851F8C1-02D5-7F26-8478-B13F54B6040C">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:31:50 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaContratacion" id="B268CAEB-289C-B084-7D12-4FE803A3BB22">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:31:50 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIreccion" id="504CA230-43D8-5BC6-42AF-782A8D910B45">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:32:27 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ciudad" id="F2CB00B2-15E0-DE97-F2DD-0BF3D9847965">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:32:27 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="672A86B3-6F30-7FC8-5B8F-7F1FC6607158">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:32:35 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="34CF3C8A-717B-CC0C-D70C-75061F4024E5">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:32:47 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCliente" id="3598A492-D5A6-7105-8716-21D3E1046B2A">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:33:54 UTC</createdTime>
+<generatorID>D5D6E0C7-318A-77C0-0721-D4E925B78D85</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<referedAttribute>B02E8A57-34B1-AB65-5010-3C9133E97C74</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idEmpleado1" id="1C925B6F-C2A9-6191-DE56-5E21F6EDC633">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:35:41 UTC</createdTime>
+<generatorID>F92C775A-01BE-2871-361B-97E956B23E73</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6BBDD02F-E1B7-72AE-62D8-362FD5735654</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0653EB41-4269-3A2F-0985-6F3507EADFDF" name="Empleado_PK">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:32:57 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>6BBDD02F-E1B7-72AE-62D8-362FD5735654</newElementsIDs>
+<usedAttributes>
+<attributeRef>6BBDD02F-E1B7-72AE-62D8-362FD5735654</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

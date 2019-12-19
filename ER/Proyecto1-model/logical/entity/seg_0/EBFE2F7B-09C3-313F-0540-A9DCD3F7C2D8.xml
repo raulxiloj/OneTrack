@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EBFE2F7B-09C3-313F-0540-A9DCD3F7C2D8" name="Album">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-14 23:53:44 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idAlbum" id="C08BF480-1415-7EFB-C575-44E6BE19C6E6">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 00:38:22 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="F02C2E33-5433-1CB9-13B1-BABC7F600779">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 00:38:32 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9A6B7E1-0F15-2FA9-6AE6-310B0830CB93" name="Album_PK">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 00:43:02 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>C08BF480-1415-7EFB-C575-44E6BE19C6E6</newElementsIDs>
+<usedAttributes>
+<attributeRef>C08BF480-1415-7EFB-C575-44E6BE19C6E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

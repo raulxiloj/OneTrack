@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="024AC9E1-5E27-6359-E467-A8E0CB3D5069" name="DetalleFactura">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>E9393BE2-C096-2265-D0CB-4FE4FD4EF62B</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idFactura" id="B443C6B7-E1A4-9F70-D002-52FFE7E918FA">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>5A7EC897-7F7D-6323-AE96-DB2E084A5927</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idCancion" id="0D168F2E-8B72-5E45-7189-55553101A1FF">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>F3E84C46-80E9-C702-6314-ED697CCEF3B7</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cancion_idCancion" id="AD10602C-49E7-AC3C-1020-47B0357D3DAE">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>16B4E57F-5331-A4A7-4E62-D67EFA7E6BAC</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D73F2DA5-9ACF-38EA-D5F3-591C06061B51" referredColumn="666122EC-0EF8-80A4-81F5-3AEDBCC9C558"/>
+</associations>
+</Column>
+<Column name="Cancion_Album_idAlbum" id="735B0022-45F1-CADE-7681-ADF4F0BE78F7">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>1E68D24D-A95D-E8F6-34F4-66F32D2DB8B2</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D73F2DA5-9ACF-38EA-D5F3-591C06061B51" referredColumn="75AF69DA-D381-A439-9912-1D05E334DA53"/>
+</associations>
+</Column>
+<Column name="Factura_idFactura" id="DBD0022A-05D0-A7E8-0EC7-A358716EBE28">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-19 09:30:41 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2EECD08-8FCC-820C-CA5D-B5A582978D97" referredColumn="59BF35FD-D42B-3368-773F-F51BF59CB918"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99971180-EA2A-0796-BBA0-62C6430D4412" name="DetalleFactura_PK">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>4B0BA5BE-91C6-33B0-8FEF-32B9299BAB18</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD10602C-49E7-AC3C-1020-47B0357D3DAE"/>
+<colUsage columnID="735B0022-45F1-CADE-7681-ADF4F0BE78F7"/>
+<colUsage columnID="B443C6B7-E1A4-9F70-D002-52FFE7E918FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF899424-CDD9-C76B-1E08-80BDCA34C379" name="DetalleFactura_Cancion_FK">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>67B673F1-3749-5E5B-1347-3FD8D801AF9E</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD10602C-49E7-AC3C-1020-47B0357D3DAE"/>
+<colUsage columnID="735B0022-45F1-CADE-7681-ADF4F0BE78F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29BC4524-B03F-1B05-B81E-F8061638653E" name="DetalleFactura_Factura_FK">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-19 09:30:41 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBD0022A-05D0-A7E8-0EC7-A358716EBE28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

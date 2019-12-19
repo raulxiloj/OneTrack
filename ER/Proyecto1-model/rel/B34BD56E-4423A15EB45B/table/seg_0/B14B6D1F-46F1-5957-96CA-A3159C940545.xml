@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B14B6D1F-46F1-5957-96CA-A3159C940545" name="DetalleLista">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>3A3B099F-CC94-E0D2-353B-33A223EE32EB</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idLista" id="CCAF4037-980B-7A40-8E06-72025000AE38">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>510332E5-8948-B259-8E38-632B7078AFD0</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idCancion" id="1DE57992-3D1F-F557-2491-0A67B8B71A04">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>184E8B57-83DA-DF4E-41BB-53DBA3752513</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cancion_idAlbum" id="6F0D9150-5180-479B-D04B-7D18FCB15308">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>2ABA001E-4FB9-C1C3-3216-43B07943ABB7</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FFE8BC9-A48B-3236-140C-63DBAD16B56E" referredColumn="75AF69DA-D381-A439-9912-1D05E334DA53"/>
+</associations>
+</Column>
+<Column name="Cancion_idCancion" id="E96A7E5F-E99F-63DB-6731-05399B08851C">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>721062D8-7192-B163-0ABA-BA14AFB0F304</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FFE8BC9-A48B-3236-140C-63DBAD16B56E" referredColumn="666122EC-0EF8-80A4-81F5-3AEDBCC9C558"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B747E897-00A4-E6B7-06DA-95258EA63E0C" name="DetalleLista_PK">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>3E26AD29-0B15-3D5A-1D01-5226448B748D</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E96A7E5F-E99F-63DB-6731-05399B08851C"/>
+<colUsage columnID="6F0D9150-5180-479B-D04B-7D18FCB15308"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77998A66-5DF1-B9F7-E2EC-3D167130DD9F" name="DetalleLista_Lista_FK">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>298F861A-FFD7-292D-A0B2-E26B2FB71F22</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="F736E65D-9CB2-6E0D-1063-E64AEA39DE37" name="DetalleLista_Cancion_FK">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:40:16 UTC</createdTime>
+<generatorID>AF5603D1-FF2B-6010-7410-D6D7B46A221D</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E96A7E5F-E99F-63DB-6731-05399B08851C"/>
+<colUsage columnID="6F0D9150-5180-479B-D04B-7D18FCB15308"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

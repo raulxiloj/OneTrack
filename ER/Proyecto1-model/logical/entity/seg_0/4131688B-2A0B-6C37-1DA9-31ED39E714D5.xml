@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4131688B-2A0B-6C37-1DA9-31ED39E714D5" name="FacturaCliente">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 00:02:02 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idFactura" id="84D4BFC9-1B75-9993-C1B8-0457C4839E4A">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:29:26 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCliente" id="4C718F84-1B1D-4D78-78FA-CD8DAD00F5FF">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:29:26 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCliente1" id="EE76AAD8-8EDE-326B-EF1B-0E5002DAFF62">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:31:37 UTC</createdTime>
+<generatorID>EB12B831-F6CC-1D7D-D55A-525A4B49D8B6</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<referedAttribute>B02E8A57-34B1-AB65-5010-3C9133E97C74</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CCC9A549-2794-C107-E0C8-BF8181726F76" name="FacturaCliente PK">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:26:51 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>E3416F0B-FD8D-C54A-60F3-EE683C24AB6E,EB12B831-F6CC-1D7D-D55A-525A4B49D8B6</newElementsIDs>
+<usedAttributes>
+<attributeRef>EE76AAD8-8EDE-326B-EF1B-0E5002DAFF62</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

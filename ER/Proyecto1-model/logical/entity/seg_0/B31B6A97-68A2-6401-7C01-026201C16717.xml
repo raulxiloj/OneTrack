@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B31B6A97-68A2-6401-7C01-026201C16717" name="Genero">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-14 23:55:41 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idGenero" id="D9850B74-2342-B492-20CE-DD9481E213CE">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 00:44:48 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="2BB311C5-681C-FCA3-44BA-9A84B583977F">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 00:44:48 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idAlbum" id="5104F5D4-AE94-F869-89B9-DAACD2272BE1">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:16:59 UTC</createdTime>
+<generatorID>7745A70B-CA6A-D500-01A1-D839759D55FD</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<referedAttribute>C54400E6-4493-EF9F-A94D-F6E894724AF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCancion" id="29867080-4D5E-0F01-EB82-88F909406FB3">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:16:59 UTC</createdTime>
+<generatorID>7745A70B-CA6A-D500-01A1-D839759D55FD</generatorID>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<referedAttribute>8CFED0A9-3AC7-9E39-7F61-4DB168A7F730</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA7F11D7-E950-8C17-5E2B-090C853126DF" name="Genero_PK">
+<createdBy>oracle</createdBy>
+<createdTime>2019-12-15 01:01:05 UTC</createdTime>
+<ownerDesignName>Proyecto1-model</ownerDesignName>
+<engineerTo>
+<item key="B34BD56E-D8BD-5FB4-DE3A-4423A15EB45B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>D9850B74-2342-B492-20CE-DD9481E213CE</newElementsIDs>
+<usedAttributes>
+<attributeRef>D9850B74-2342-B492-20CE-DD9481E213CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
