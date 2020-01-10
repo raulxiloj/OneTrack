@@ -6,7 +6,7 @@ laborioso, debido a que cada vez el archivo aumenta su tamaño y complejidad.
 # Objetivos 
 * General
   - Disenar una base de datos y migrar la informacion que estaba en los archivos de excel (csv)
-* General
+* Especificos
   - Carga masiva de datos 
   - Diseno de una base de datos (DDL)
   - Reportes (DML)
